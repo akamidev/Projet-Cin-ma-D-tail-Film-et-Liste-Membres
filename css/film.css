@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: #141414;
+    color: #d31515;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container {
+    width: 80vw; 
+    max-width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1 {
+    text-align: center;
+    color: #e50914;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.summary, .duration, .year, .start-date, .end-date {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.error {
+    color: #e50914;
+    font-size: 1.5em;
+}
+
+/* Utilisez les media queries pour ajuster le style en fonction de la taille de la fenêtre du navigateur */
+@media (max-width: 600px) {
+    .container {
+        width: 95vw; /* Augmentez la largeur sur les petits écrans */
+    }
+
+    .title {
+        font-size: 2em; /* Réduisez la taille de la police sur les petits écrans */
+    }
+}

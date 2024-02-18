@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+  }
+  nav ul li {
+      margin: 0 10px;
+  }
+  nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  main h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  

@@ -1,0 +1,62 @@
+body {
+    background-color: #141414;
+    color: #da1919;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #e50914;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form select, form button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b20710;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.film {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.film h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.film img {
+    width: 100%;
+    height: auto;
+}
+
+.film p {
+    font-size: 0.9em;
+}

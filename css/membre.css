@@ -1,0 +1,31 @@
+
+
+    .h1{
+        color: #da1515;
+        font-size: 24px;
+        
+        justify-content: center;
+    }
+   
+
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+    background-color: #000;
+}
+
+.member-table th, .member-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.member-table th {
+    background-color: #222;
+}
+
+.member-item:nth-child(even) {
+    background-color: #333;
+}
+
