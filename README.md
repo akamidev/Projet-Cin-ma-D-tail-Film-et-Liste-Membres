@@ -74,7 +74,7 @@ Ajouter un modèle Membre pour gérer les données des membres.
 
 #### 📝 Licence
 
-Ce projet est sous licence **MIT**. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence **MIT**. Consultez le fichier [LICENSE](https://github.com/akamidev/Projet-Cin-ma-D-tail-Film-et-Liste-Membres/blob/main/LICENSE) pour plus de détails.
 
 ---
 
